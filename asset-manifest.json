@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chitalka/static/css/main.c32fcf2f.css",
+    "main.js": "/chitalka/static/js/main.1e88e17f.js",
+    "index.html": "/chitalka/index.html",
+    "main.c32fcf2f.css.map": "/chitalka/static/css/main.c32fcf2f.css.map",
+    "main.1e88e17f.js.map": "/chitalka/static/js/main.1e88e17f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c32fcf2f.css",
+    "static/js/main.1e88e17f.js"
+  ]
+}
