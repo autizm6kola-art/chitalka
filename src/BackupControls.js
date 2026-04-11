@@ -55,39 +55,39 @@ function BackupControls() {
     reader.readAsText(file);
   };
 
-  return (
-    <div style={{ marginTop: '24px' }}>
-      <button
-        style={{
-          ...buttonStyle,
-          ...(hovered === 'save' ? hoverStyle : {}),
-        }}
-        onMouseEnter={() => setHovered('save')}
-        onMouseLeave={() => setHovered(null)}
-        onClick={handleExport}
-      >
-        Сохранить
-      </button>
+  // return (
+  //   <div style={{ marginTop: '24px' }}>
+  //     <button
+  //       style={{
+  //         ...buttonStyle,
+  //         ...(hovered === 'save' ? hoverStyle : {}),
+  //       }}
+  //       onMouseEnter={() => setHovered('save')}
+  //       onMouseLeave={() => setHovered(null)}
+  //       onClick={handleExport}
+  //     >
+  //       Сохранить
+  //     </button>
 
-      <label
-        style={{
-          ...buttonStyle,
-          ...(hovered === 'load' ? hoverStyle : {}),
-          display: 'inline-block',
-        }}
-        onMouseEnter={() => setHovered('load')}
-        onMouseLeave={() => setHovered(null)}
-      >
-        Загрузить
-        <input
-          type="file"
-          accept="application/json"
-          onChange={handleImport}
-          style={{ display: 'none' }}
-        />
-      </label>
-    </div>
-  );
+  //     <label
+  //       style={{
+  //         ...buttonStyle,
+  //         ...(hovered === 'load' ? hoverStyle : {}),
+  //         display: 'inline-block',
+  //       }}
+  //       onMouseEnter={() => setHovered('load')}
+  //       onMouseLeave={() => setHovered(null)}
+  //     >
+  //       Загрузить
+  //       <input
+  //         type="file"
+  //         accept="application/json"
+  //         onChange={handleImport}
+  //         style={{ display: 'none' }}
+  //       />
+  //     </label>
+  //   </div>
+  // );
 }
 
 export default BackupControls;

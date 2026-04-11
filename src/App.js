@@ -102,9 +102,9 @@ function App() {
       <br /><br />
 
       <div className="status">
-        {allModulesVisited && (
+        {/* {allModulesVisited && (
           <p>Молодец!</p>
-        )}
+        )} */}
 
         <div className="module-list">
           {modules.map((mod) => {
