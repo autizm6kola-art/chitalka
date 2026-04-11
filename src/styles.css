@@ -1,0 +1,111 @@
+/* src/styles.css */
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 30px;
+  max-width: 300px;
+  margin: auto;
+  background: white;
+  margin-top: 50px;
+  border-radius: 50px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* .module-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1px));
+  gap: 15px;
+  margin-bottom: 20px;
+} */
+
+.module-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 4 колонки */
+  grid-auto-flow: row; /* по строкам */
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.module-button {
+  padding: 10px 10px;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: clamp(16px, 2vw, 20px); /* адаптивный шрифт */
+  transition: 0.2s;
+}
+
+.module-button:hover {
+  background: #d4d4d4;
+}
+
+.status {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.reset {
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background: #eee;
+}
+
+.module-button.visited {
+  background: #9cfb9cc9;
+  color: black;
+  font-weight: bold;
+}
+
+/* --------------------------- */
+/* Медиа-запросы для адаптивности */
+
+@media (max-width: 768px) {
+  .module-list {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .module-button {
+    font-size: clamp(14px, 3vw, 18px);
+    padding: 8px 8px;
+  }
+
+  .status {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .module-list {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+  }
+
+  .module-button {
+    font-size: clamp(12px, 4vw, 16px);
+    padding: 6px 6px;
+  }
+
+  .status {
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+}
