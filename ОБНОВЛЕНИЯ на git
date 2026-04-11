@@ -1,4 +1,5 @@
 git add .
 git commit -m "что-то"
 git push
+
 npm run deploy
