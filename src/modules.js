@@ -1,11 +1,12 @@
 export const modules = [
   
   // { id: 3, name: "Айболит", url: "https://autizm6kola-art.github.io/cht_aybolit" },
-  { id: 6, name: "Лис и пёс", url: "https://autizm6kola-art.github.io/lis_i_pes" },
+  { id: 31, name: "Лис и пёс", url: "https://autizm6kola-art.github.io/lis_i_pes" },
   // { id: 9, name: "Груффало", url: "https://autizm6kola-art.github.io/cht_gruffalo" },
   // { id: 8, name: "Муха-цокотуха", url: "https://autizm6kola-art.github.io/mucha_g" },
   // { id: 12, name: "Дочурка Груф", url: "https://autizm6kola-art.github.io/gruffalo_doch" },
-  { id: 15, name: "Хоббит", url: "https://autizm6kola-art.github.io/hobbit2/" }
+  { id: 32, name: "Хоббит", url: "https://autizm6kola-art.github.io/hobbit2/" },
+  { id: 32, name: "Властелин колец", url: "https://autizm6kola-art.github.io/vlastelin" }
 ];
 
 
