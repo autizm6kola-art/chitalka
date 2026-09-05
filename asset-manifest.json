@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/chitalka/static/css/main.c32fcf2f.css",
-    "main.js": "/chitalka/static/js/main.08e7100f.js",
+    "main.js": "/chitalka/static/js/main.e8407693.js",
     "index.html": "/chitalka/index.html",
     "main.c32fcf2f.css.map": "/chitalka/static/css/main.c32fcf2f.css.map",
-    "main.08e7100f.js.map": "/chitalka/static/js/main.08e7100f.js.map"
+    "main.e8407693.js.map": "/chitalka/static/js/main.e8407693.js.map"
   },
   "entrypoints": [
     "static/css/main.c32fcf2f.css",
-    "static/js/main.08e7100f.js"
+    "static/js/main.e8407693.js"
   ]
 }
